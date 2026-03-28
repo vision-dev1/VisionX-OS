@@ -57,3 +57,15 @@ Move beyond traditional package managers:
 👉 Faster setup, cleaner experience
 
 ---
+
+### 5. 🛡️ Built-in Custom Security Tools
+
+VisionX integrates powerful, purpose-built tools:
+
+- [NetProbe](https://github.com/vision-dev1/NetProbe) → Advanced network scanner
+- [ScopeINT](https://github.com/vision-dev1/ScopeINT) → Reconnaissance intelligence tool
+- [CamRadar](https://github.com/vision-dev1/CamRadar) → Detects IP cameras & surveillance devices
+
+👉 Not just bundled tools — custom-built ecosystem
+
+---
