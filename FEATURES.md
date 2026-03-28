@@ -104,3 +104,30 @@ Unlike traditional cybersecurity distros, VisionX OS is designed to grow **with 
 👉 Designed for everyone, not just experts
 
 ---
+
+### 8. 🔍 Real-Time Security Awareness (Planned)
+
+Integration with tools like VisionGuard:
+
+- Detect risks while browsing
+- Identify misconfigurations instantly
+- Real-time alerts
+
+👉 Security becomes active, not passive
+
+---
+
+### ✅ What’s Already Built
+- ✔️ VisionX CLI (basic commands)
+- ✔️ Initial workflow commands:
+visionx scan
+visionx recon
+visionx web recon
+- ✔️ Custom tools:
+NetProbe
+ScopeINT
+CamRadar
+- ✔️ Core concept & architecture defined
+
+---
+
