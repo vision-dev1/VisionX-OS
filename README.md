@@ -1,186 +1,178 @@
-# 🌌 VisionX-OS
+# VisionX-OS
 
-[![Version](https://img.shields.io/badge/version-1.0.0--stable-bluegrey?style=for-the-badge&logo=linux)](https://github.com/VisionX/VisionX-OS)
-[![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)](LICENSE)
-[![Platform](https://img.shields.io/badge/platform-Debian--based-D11941?style=for-the-badge&logo=debian)](https://www.debian.org/)
-[![Security](https://img.shields.io/badge/security-hardened-success?style=for-the-badge&logo=securityscorecard)](https://github.com/VisionX/VisionX-OS)
+[![Version](https://img.shields.io/badge/version-1.1.0--stable-blue?style=flat-square)](https://github.com/VisionX/VisionX-OS)
+[![License](https://img.shields.io/badge/license-MIT-green?style=flat-square)](LICENSE)
+[![Platform](https://img.shields.io/badge/platform-Debian--based-D11941?style=flat-square&logo=debian)](https://www.debian.org/)
+[![Security](https://img.shields.io/badge/security-verified-success?style=flat-square)](https://github.com/VisionX/VisionX-OS)
 
-```text
-  _   __ _      _               _  __      ____   _____ 
- | | / /(_)____(_)___  _ __    | |/ /     / __ \ / ___/ 
- | |/ / / / ___/ / __ \| '_ \   |   /     / / / / \__ \  
- |   / / (__  / / /_/ /| | | | /   |     / /_/ / ___/ /  
- |_|/_/ \___//_/\____/ |_| |_|/_/|_|     \____/ /____/   
-                                                         
-  >> THE ULTIMATE LIGHTWEIGHT PENETRATION TESTING DISTRO <<
-```
+VisionX-OS is a lightweight, Debian-based Linux distribution designed specifically for individuals who want to **learn and practice cybersecurity** in a safe, structured, and accessible environment. 
 
-## ⚡ Overview
-
-**VisionX-OS** is a specialized, lightweight Linux distribution built on the stable foundation of **Debian**. Engineered for cybersecurity professionals, penetration testers, and security-focused developers, VisionX-OS strips away the bloat to provide a blazing-fast, modular, and weaponized environment.
-
-Whether you're performing reconnaissance, exploitation, or rapid software development, VisionX-OS provides the precision tools you need without the overhead.
-
-> [!IMPORTANT]
-> VisionX-OS is intended for educational purposes and authorized security testing only.
+Whether you are a beginner taking your first steps into networking or an intermediate user refining your penetration testing skills, VisionX-OS provides a pre-configured toolkit and a seamless learning experience right out of the box.
 
 ---
 
-## 🚀 Key Features
+## 🌟 Project Overview
 
-*   **⚡ Lightweight Core**: Optimized kernel and minimal background services for maximum performance on any hardware.
-*   **🔒 Hardened Security**: Integrated firewall, rootkit detection (`chkrootkit`), and encrypted-by-default configurations.
-*   **💻 Developer-Ready**: Pre-configured with Python, Go, Rust, and Node.js environments.
-*   **🖥️ Modular Toolset**: Install only what you need. Our custom module system keeps your storage lean.
-*   **🛡️ Integrated Help**: A unified command-line help system for every pre-installed binary.
-*   **🎭 Stealth Mode**: MAC address randomization and VPN kill-switch integration out of the box.
+VisionX-OS bridges the gap between complex security distributions and user-friendly operating systems. Our mission is to make cybersecurity education approachable for everyone—from students and developers to IT professionals.
+
+*   **Learning-Oriented**: Includes an integrated help system and intuitive CLI tools designed to guide you through common security workflows.
+*   **Safe & Structured**: Built on the stability of Debian, providing a reliable environment for ethical hacking and defensive practice.
+*   **Lightweight & Efficient**: Stripped of unnecessary bloat, VisionX-OS runs smoothly on virtual machines or older hardware.
+
+> [!NOTE]
+> VisionX-OS is intended for educational purposes and authorized security research within your own lab environments.
 
 ---
 
-## 🛠️ Tools
+## ✨ Key Features
 
-VisionX-OS comes with a curated selection of industry-standard tools. To keep this README clean, please refer to the full catalog in our tools manifest:
+*   **📚 Learning Focus**: Integrated documentation and tutorials accessible directly from the terminal.
+*   **🛠️ Pre-installed Tools**: A curated selection of industry-standard tools (Nmap, Metasploit, Burp Suite, etc.) ready for immediate use.
+*   **🧩 Modular Design**: Tools are organized into logical modules, allowing you to install or update only what you need.
+*   **🤝 Integrated Help**: Use `visionx help <tool>` to get instant, beginner-friendly guidance on how to use any pre-installed utility.
+*   **🚀 Developer Ready**: Full support for Python, Go, Rust, and Node.js with pre-configured IDE environments.
+*   **🛡️ Robust Security**: Built-in firewall, minimal active services, and regular automated security updates.
 
-👉 **[View Full Tool Catalog (TOOLS.md)](TOOLS.md)**
+---
+
+## 🔧 Tools & Modules
+
+VisionX-OS organizes its tools into searchable modules to help you find what you need quickly. For a comprehensive catalog of all 150+ pre-installed tools, please refer to the [Tools Manifest](TOOLS.md).
 
 ### Quick Commands
 ```bash
-# List all installed security modules
+# List all available security modules
 visionx tools list
 
-# Get deep-dive help on a specific tool
+# Get detailed help on a specific tool (e.g., nmap)
 visionx help nmap
 
-# Update the VisionX tool repository
-visionx tools update --force
+# Search for a tool by keyword
+visionx search reconnaissance
 ```
 
 ---
 
-## 📦 Installation
+## 📂 Modules
 
-### Recommended Specs
-*   **RAM**: 2GB (Minimum) | 8GB (Recommended)
-*   **Storage**: 20GB SSD
-*   **OS**: Debian 12 (Core Base)
+The system is categorized into several core modules to simplify your learning journey:
 
-### Setup & Initialization
-Clone the repository and run the setup script:
+| Module | Purpose | Description |
+| :--- | :--- | :--- |
+| **Daily Use** | Productivity | Web browsers, text editors, and essential system utilities. |
+| **Developer Stack** | Development | Full compiler suites and modern IDEs (VS Code, Vim). |
+| **Exploitation** | Penetration Testing | Frameworks like Metasploit and social engineering tools. |
+| **Network** | Infrastructure | Scanning, mapping, and packet analysis (Nmap, Wireshark). |
+| **OSINT** | Intelligence | Tools for gathering public data from various online sources. |
+| **Password Cracking** | Cryptography | Industry standards such as Hashcat and John the Ripper. |
+| **Reverse Engineering** | Software Analysis | Ghidra and Radare2 for analyzing binary files safely. |
+| **Web Security** | Web Apps | Specialized tools for scanning and securing web applications. |
+| **Wireless** | WiFi Auditing | Tools for testing the security of wireless networks. |
+
+---
+
+## 💾 Installation
+
+VisionX-OS can be run as a Live ISO, installed in a Virtual Machine, or used on physical hardware.
+
+### Minimum System Specs
+*   **RAM**: 2GB (Minimum) | 4GB+ (Recommended)
+*   **Storage**: 20GB free space
+*   **Processor**: 64-bit capable CPU
+
+### Getting Started
+1.  **Download** the latest `.iso` file from our releases page.
+2.  **Flash** to a USB drive or mount in your VM software (VirtualBox/VMware).
+3.  **Update** your system once installed:
 
 ```bash
-git clone https://github.com/VisionX/VisionX-OS.git
-cd VisionX-OS
-sudo chmod +x setup.sh
-./setup.sh --install-core
-```
+# Standard system update
+sudo apt update && sudo apt upgrade -y
 
-Update your system to the latest VisionX patches:
-```bash
-sudo apt update && sudo apt full-upgrade -y
-visionx upgrade
+# VisionX specific tool sync
+visionx tools update
 ```
 
 ---
 
-## 🎮 Usage
+## 🖥️ Usage
 
-### Launching the Framework
-The `visionx` CLI is the heartbeat of the OS.
+VisionX-OS provides a powerful CLI framework designed for clarity.
 
+### Accessing the Shell
+Launch the core VisionX environment to start your session:
 ```bash
-# Start the global shell module
 visionx shell
 ```
 
-### Autopwn Pipeline (Experimental)
-Run an automated vulnerability scanning and reporting pipeline:
-
+### Automation & Pipelines
+For guided reconnaissance or vulnerability assessments, use our built-in pipelines:
 ```bash
-visionx run autopwn --target 192.168.1.1/24 --output ./reports/
+# Run an automated reconnaissance scan
+visionx run auto-recon --target 192.168.1.10
+
+# Execute an guided autopwn sequence (for authorized targets)
+visionx run autopwn --target your-lab-target --output ./reports/
 ```
 
-### Report Generation
-Export your findings into professional JSON or PDF formats:
-
+### Reporting
+Generate professional markdown or PDF reports of your findings:
 ```bash
-visionx report generate --session last_scan --format pdf
+visionx report generate --session last --format pdf
 ```
-
----
-
-## 🧩 Modules
-
-VisionX-OS is organized into logical modules. You can enable/disable these to suit your mission:
-
-| Module | Description | Icon |
-| :--- | :--- | :--- |
-| **Daily Use** | Essential apps for productivity and browsing. | 🏢 |
-| **Developer Stack** | Compilers, IDEs (VS Code/Vim), and git tools. | 🛠️ |
-| **Exploitation** | Metasploit, BeEF, and custom exploits. | 💣 |
-| **Network** | Nmap, Wireshark, ZMap, and scanning utilities. | 🌐 |
-| **OSINT** | Maltego, SpiderFoot, and social scrapers. | 🔍 |
-| **Password Cracking**| Hashcat, John the Ripper, and wordlists. | 🔑 |
-| **Reverse Engineering**| Ghidra, Cutter, and GDB. | 🧬 |
-| **Web Security** | Burp Suite, SQLMap, and Nikto. | 🕸️ |
-| **Wireless** | Aircrack-ng, Kismet, and Wifite. | 📡 |
 
 ---
 
 ## 🛡️ Security & Privacy
 
-*   **UFW Pre-configured**: Strict inbound rules by default.
-*   **Micro-Services**: Only essential ports (SSH/Internal) are open.
-*   **Live Rootkit Scanning**: Daily `rkhunter` checks.
-*   **Zero Logs (Optional)**: Enable "Privacy Mode" to prevent local command history and log persistence.
+*   **Pre-configured Firewall**: Strict default rules to protect your system from outside traffic.
+*   **Rootkit Detection**: Integrated `chkrootkit` runs periodically to ensure system integrity.
+*   **Minimal Services**: Only the most essential system services are enabled by default to reduce attack surface.
+*   **Encrypted Storage**: Support for full-disk encryption during the installation process.
 
 ---
 
-## 📂 Project Structure
+## 📁 Project Structure
 
 ```text
 VisionX-OS/
-├── bin/                # Core VisionX binaries
-├── configs/            # System & Shell configurations
-├── docs/               # Manuals and API docs
-├── modules/            # Searchable tool modules
-│   ├── exploitation/
-│   ├── network/
-│   └── osint/
-├── scripts/            # Automation & Setup scripts
-├── templates/          # Report & Project templates
-├── README.md           # You are here
-└── TOOLS.md            # Full tool documentation
+├── bin/                # VisionX-CLI binaries
+├── core/               # System core files and configs
+├── modules/            # Categorized security tools
+├── scripts/            # Automation and setup scripts
+├── templates/          # Standardized reporting templates
+├── README.md           # This file
+└── TOOLS.md            # Detailed tools manifest
 ```
 
 ---
 
-## 🤝 Contribution
+## 🤝 Contributing
 
-We welcome contributions from the community!
+We welcome contributions from educators and security enthusiasts!
 
-1.  **Fork** the project.
-2.  Create your **Feature Branch** (`git checkout -b feature/AmazingFeature`).
-3.  **Commit** your changes (`git commit -m 'Add some AmazingFeature'`).
-4.  **Push** to the branch (`git push origin feature/AmazingFeature`).
-5.  Open a **Pull Request**.
+1.  **Fork** the repository.
+2.  Create a new **Branch** (`git checkout -b feature/NewComponent`).
+3.  **Commit** your changes with clear descriptions.
+4.  Push to your fork and submit a **Pull Request**.
 
 ---
 
 ## 📚 Resources
 
-*   🌐 [Official Website](https://visionx-os.com)
-*   📖 [Documentation Portal](https://docs.visionx-os.com)
-*   📺 [CLI Usage Tutorials](https://youtube.com/visionx-os)
+*   🌐 [Official Website](https://visionx-os.org)
+*   📖 [Documentation Portal](https://docs.visionx-os.org)
+*   📟 [CLI Guides & Tutorials](https://visionx-os.org/cli-guide)
 
 ---
 
 ## 📜 License
 
-Distributed under the **MIT License**. See `LICENSE` for more information.
+VisionX-OS is released under the **MIT License**. See [LICENSE](LICENSE) for details.
 
 ---
 
 <p align="center">
-  Generated with 💜 by the VisionX Community. <br>
-  Built for <b>Freedom</b>. Built for <b>Security</b>.
+  Empowering the next generation of security professionals. <br>
+  <b>Learn. Practice. Secure.</b>
 </p>
