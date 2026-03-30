@@ -1,0 +1,8 @@
+gdb
+strace
+ltrace
+binwalk
+radare2
+strings
+objdump
+ghidra
