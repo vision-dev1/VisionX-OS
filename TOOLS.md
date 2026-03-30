@@ -2,7 +2,7 @@
 VisionX OS comes bundled with a curated set of tools, organized into modules for clarity and speed.
 Each module groups related utilities, so you spend less time searching and more time doing.
 
-**🔹Daily Use**
+**🔹Daily Use**<br>
 Essential system and productivity tools.
 - ufw
 - fail2ban
@@ -14,7 +14,7 @@ Essential system and productivity tools.
 - curl
 - wget
 
-**🔹Developer Stack**
+**🔹Developer Stack**<br>
 Core development and build environment.
 - python3
 - nodejs
@@ -24,14 +24,14 @@ Core development and build environment.
 - gcc
 - make
 
-**🔹Exploitation**
+**🔹Exploitation**<br>
 Tools for offensive security and exploit development.
 - msfconsole
 - msfvenom
 - searchsploit
 - nc
 
-**🔹Network Tools**
+**🔹Network Tools**<br>
 Network analysis, scanning, and traffic inspection
 -  nmap
 - nc
@@ -40,7 +40,7 @@ Network analysis, scanning, and traffic inspection
 - tshark
 - bettercap
 
-**🔹OSINT**
+**🔹OSINT**<br>
 Open-source intelligence and reconnaissance tools.
 - recon-ng
 - theHarvester
@@ -48,7 +48,7 @@ Open-source intelligence and reconnaissance tools.
 - exiftool
 - whois
 
-**🔹Password Cracking**
+**🔹Password Cracking**<br>
 Credential auditing and brute-force tools
 - hashcat
 - john
@@ -57,7 +57,7 @@ Credential auditing and brute-force tools
 - cewl
 - crunch
 
-**🔹Reverse Engineering**
+**🔹Reverse Engineering**<br>
 Binary analysis and debugging toolkit.
 - gdb
 - strace
@@ -68,7 +68,7 @@ Binary analysis and debugging toolkit.
 - objdump
 - ghidra
 
-**🔹Web Security**
+**🔹Web Security**<br>
 Web application testing and vulnerability analysis.
 - burpsuite
 - nikto
@@ -78,7 +78,7 @@ Web application testing and vulnerability analysis.
 - wpscan
 - wafw00f
 
-**🔹Wireless**
+**🔹Wireless**<br>
 Wireless network auditing tools.
 - aircrack-ng
 - reaver
