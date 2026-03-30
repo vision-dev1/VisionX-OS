@@ -1,10 +1,9 @@
-# PRE Installed Tools in VisionX OS 
+# 🧰 Pre-installed Tools in VisionX OS
+VisionX OS comes bundled with a curated set of tools, organized into modules for clarity and speed.
+Each module groups related utilities, so you spend less time searching and more time doing.
 
-## All the tools are categorized by their modules in VisionX, making it super easy to access without any misunderstanding.
-
-### Modules are :
-
-**daily-use**
+**🔹Daily Use**
+Essential system and productivity tools.
 - ufw
 - fail2ban
 - rkhunter
@@ -15,7 +14,8 @@
 - curl
 - wget
 
-**developer-stack**
+**🔹Developer Stack**
+Core development and build environment.
 - python3
 - nodejs
 - go
@@ -24,13 +24,15 @@
 - gcc
 - make
 
-**exploitation**
+**🔹Exploitation**
+Tools for offensive security and exploit development.
 - msfconsole
 - msfvenom
 - searchsploit
 - nc
 
-**network**
+**🔹Network Tools**
+Network analysis, scanning, and traffic inspection
 -  nmap
 - nc
 - tcpdump
@@ -38,14 +40,16 @@
 - tshark
 - bettercap
 
-**osint**
+**🔹OSINT**
+Open-source intelligence and reconnaissance tools.
 - recon-ng
 - theHarvester
 - sherlock
 - exiftool
 - whois
 
-**password-cracking**
+**🔹Password Cracking**
+Credential auditing and brute-force tools
 - hashcat
 - john
 - hydra
@@ -53,7 +57,8 @@
 - cewl
 - crunch
 
-**reverse-engineering**
+**🔹Reverse Engineering**
+Binary analysis and debugging toolkit.
 - gdb
 - strace
 - ltrace
@@ -63,15 +68,18 @@
 - objdump
 - ghidra
 
-**websecurity**
+**🔹Web Security**
+Web application testing and vulnerability analysis.
+- burpsuite
 - nikto
 - sqlmap
 - gobuster
-- ffup
+- ffuf
 - wpscan
 - wafw00f
 
-**wireless**
+**🔹Wireless**
+Wireless network auditing tools.
 - aircrack-ng
 - reaver
 - wifite
